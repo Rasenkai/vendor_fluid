@@ -4,9 +4,9 @@
 # Platform name variables - used in makefiles everywhere
 KONA := kona #SM8250
 LITO := lito #SM7250
-MSMNILE := msmnile #SM8150
-MSMSTEPPE := sm6150
-TRINKET := trinket #SM6125
+MSMNILE ?= msmnile #SM8150
+MSMSTEPPE ?= sm6150
+TRINKET ?= trinket #SM6125
 ATOLL := atoll #SM6250
 
 # A Family
